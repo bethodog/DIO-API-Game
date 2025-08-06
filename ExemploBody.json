@@ -1,0 +1,34 @@
+{
+   "title":"Sonic",
+   "gameYear":2020,
+   "score":9.5,
+   "imgUrl":"http://teste",
+   "genre":{
+      "name":"Aventura",
+      "age":10
+   },
+   "platforms":[
+      {
+         "name":"PS5"
+      },
+      {
+         "name":"Xbox"
+      },
+      {
+         "name":"PC"
+      },
+      {
+         "name":"Nintendo"
+      }
+   ],
+   "languages":[
+      {
+         "name":"Português"
+      },
+      {
+         "name":"Espanhol"
+      }
+   ],
+   "shortDescription": "Sonic o Porco Espinho",
+   "longDescription": "Jogo para treinar habilidades"
+}

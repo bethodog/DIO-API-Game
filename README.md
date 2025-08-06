@@ -31,3 +31,14 @@ classDiagram
     Game "1" -- "N" Platform : is available on
     Game "1" *-- "N" Language : has
 ```
+
+## Acessos
+
+URL Padrão
+- http://localhost:8080/games	
+	
+Doc API	
+- http://localhost:8080/swagger-ui/index.html
+
+H2 Database
+- http://localhost:8080/h2-console/	

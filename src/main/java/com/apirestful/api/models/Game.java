@@ -24,13 +24,14 @@ public class Game {
 	private Long id;
 	@Column(length = 100)
 	private String title;
-	private Integer game_year;
+	@Column(name = "game_year")
+	private Integer gameYear;
 	@OneToOne(cascade = CascadeType.ALL)
 	private Genre genre;
 	@OneToMany(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
 	private List<Platform> platforms;
 	@OneToMany(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
-	private List<Language> language;
+	private List<Language> languages;
 	@Column(precision = 2)
 	private Double score;
 	private String imgUrl;
