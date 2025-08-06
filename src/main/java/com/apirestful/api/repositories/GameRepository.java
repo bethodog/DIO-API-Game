@@ -7,5 +7,7 @@ import com.apirestful.api.models.Game;
 
 @Repository
 public interface GameRepository extends JpaRepository<Game, Long> {
+	
+	boolean existsByTitle(String title);
 
 }
